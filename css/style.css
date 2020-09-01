@@ -1,0 +1,477 @@
+/*reset css*/
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	/*font-family: 'Baloo Tamma 2', cursive;*/
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+nav {
+	width: 100%;
+	background-color: rgb(21, 31, 112);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+}
+
+nav .main-nav{
+	display: flex;
+	width: 90%;
+	/*border: 2px solid black;*/
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-nav .logo h1{
+	color: #fff;
+	font-size: 40px;
+	text-transform: capitalize; 
+}
+
+
+ul li{
+	list-style: none;
+	display: inline;
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 7px;
+	color: #fff;
+}
+
+ul li a:hover{
+	color: #C0C0C0;
+}
+/*header-section*/
+
+header{
+	width: 100%;
+	background-color: rgb(21, 31, 112);
+	/*margin-top: 5px;*/
+	padding: 200px 30px 120px 30px;
+}
+
+header .header-main{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	/*border: 2px solid green;*/
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	/*padding: 40px;*/
+
+}
+
+.header-heading h1{
+	font-size: 50px;
+}
+
+.header-heading p{
+	font-size: 15px;
+}
+
+.header-btn{
+	/*border: 2px solid black;*/
+	margin: 50px auto;
+}
+.header-btn button{
+	padding: 10px 20px;
+	/*margin-top: 50px;*/
+	background-color: none;
+	outline: none;
+	background-color: #fff;
+	border-radius: 5px;
+	border-color: #fff;
+}
+
+.header-btn button:hover{
+	background-color: #C0C0C0;
+}
+
+#second{
+	/*margin-top: 5px;*/
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: #fff;
+	/*border:5px solid red;*/
+	/*padding: 150px 0px;*/
+	padding: 80px 0px 0px 0px;
+}
+
+#second #sec-content{
+	width: 70%;
+	margin: 0 auto;
+	/*border: 2px solid black;*/
+	justify-content: center;
+	text-align: center;
+	font-size: 25px;
+}
+
+#second #sec-content #text{
+	margin-top: 25px;
+}
+
+/*third-section*/
+
+#third{
+	width: 100%;
+	/*background-color: #CCFFCC;*/
+	padding: 80px 0px;
+}
+
+#third .third-content{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 2px solid;*/
+	/*padding: 80px;*/
+	display: flex;
+	/*flex-wrap: wrap;*/
+/*justify-content: space-between;*/
+justify-content: space-around;
+text-align: center;
+
+}
+
+#third .third-content .third-details{
+	width: 50%;
+	/*border: 2px solid black;*/
+	padding: 30px;
+	align-items: center;
+	justify-content: center;
+}
+
+#third .third-content .third-details img{
+	/*padding: 20px;*/
+	width: 170px;
+	height: 150px;
+	/*padding: 20px;*/
+	text-align: center;
+
+
+}
+
+#third > h1{
+	text-align: center;
+	/*font-weight: bold;*/
+	font-size: 80px;
+}
+
+
+#paralex{
+	width: 100%;
+	border: 2px solid black;
+	background-image: url('../img/para.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 100px 0px;
+	/*background-color: rgba(61, 68, 143,0.7);*/
+	/*height: 600px;*/
+}
+
+#paralex .para-wrap{
+	/*background-color: rgba(61, 68, 143,0.7);*/
+	width: 100%;
+	/*height: 500px;*/
+	margin: 0 auto;
+	justify-content: space-between;
+	text-align: center;
+}
+#paralex .para-wrap .para-conent h1{
+	font-size: 50px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+#paralex .para-wrap .para-conent button{
+	padding: 10px 30px;
+	/*margin-top: 50px;*/
+	background-color: none;
+	outline: none;
+	background-color: #fff;
+	border-radius: 0px;
+	border-color: #fff;
+}
+
+#services{
+	width: 100%;
+	/*border: 2px solid red;*/
+	padding: 30px 0px;
+}
+
+#services > h1{
+	text-align: center;
+}
+
+#services .services-text{
+
+width: 70%;
+display: flex;
+justify-content: space-between;
+align-content: center;
+/*border: 2px solid black;*/
+margin: 0 auto;
+text-align: center;
+}
+
+#services .services-text .services-content:hover{
+background-color: rgb(21, 31, 112);
+padding: 15px;
+
+}
+
+#services .services-text .services-content .fa{
+	/*width: 150px;
+	height: 150px;*/
+	font-size: 50px;
+}
+
+#testimonials{
+	width: 100%;
+	/*border: 2px solid black;*/
+	padding: 70px 0px 100px 0px;
+	background-color: rgb(21, 31, 112);
+
+}
+
+#testimonials > h1{
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+#testimonials #testimonials-con-wrap{
+width: 80%;
+text-align: center;
+/*border: 2px solid red;*/
+margin: 0 auto;
+color: #fff;
+}
+#testimonials #testimonials-con-wrap #testimonials-con img{
+width: 80px;
+height: 80px;
+border-radius: 5px;
+/*padding-top: 10px;*/
+
+}
+
+#bee{
+	width: 100%;
+	/*border: 2px solid black;*/
+	padding: 80px 0px;
+	/*margin-bottom: 5px;*/
+}
+
+#bee > h1{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	font-weight: lighter;
+}
+
+#bee #bee-wrap{
+	/*border: 2px solid green;*/
+	width: 70%;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+	padding: 30px 0px;
+
+}
+
+#bee #bee-wrap #bee-content button{
+/*border: 2px solid black;*/
+	margin-top: 50px;
+	padding: 10px 30px;
+	/*margin-top: 50px;*/
+	background-color: none;
+	outline: none;
+	background-color: rgb(21, 31, 112);
+	border-radius: 0px;
+	/*border-color: rgb(21, 31, 112);*/
+	color: #fff;
+}
+
+#bee #bee-wrap #bee-content button:hover{
+	background-color: rgba(61, 68, 143);
+}
+
+footer{
+	width: 100%;
+	background-color: #000000;
+	padding:10px;
+}
+
+footer > h1{
+	color: #fff;
+	text-align: center;
+}
+
+footer .footer-align{
+	width: 50%;
+	/*border: 2px solid white;*/
+	margin: 0 auto;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+footer .footer-align .footer-con{
+color: #fff;
+}
+
+footer .footer-align .footer-con .fa{
+	padding: 5px;
+}
+/*About - us*/
+
+#about{
+	width: 100%;
+	/*margin-top: 50px;*/
+	background-color: rgb(21, 31, 112);
+	/*border: 2px solid yellow;*/
+	padding: 100px 0px;
+}
+
+#about #about-text{
+	width: 90%;
+	/*border: 2px solid black;*/
+	margin-top: 10px;
+}
+#about #about-text > span{
+	color: #fff;
+	font-size: 50px;
+	padding: 0px 0px 0px 70px;
+}
+/*.about-main .about-heading h1{
+	color: #fff;
+	padding: 20px 0px 0px 0px;
+}*/
+
+#services-about{
+	width: 100%;
+	/*border: 2px solid red;*/
+	padding: 50px 0px 50px 0px;
+	background-color: rgba(229, 225, 225);
+	/*display: flex;*/
+}
+#services-about #service-about-para{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#services-about #service-about-para #service-about-img img{
+height: 200px;
+width: 200px;
+}
+#services-about > h1{
+	text-align: center;
+}
+
+#services-about .services-text-about{
+
+width: 70%;
+display: flex;
+justify-content: space-between;
+align-content: center;
+/*border: 2px solid black;*/
+margin: 0 auto;
+text-align: center;
+}
+
+#services-about .services-text-about .services-content-about:hover{
+background-color: rgb(21, 31, 112);
+padding: 15px;
+
+}
+
+#services-about .services-text-about .services-content-about .fa{
+	/*width: 150px;
+	height: 150px;*/
+	font-size: 50px;
+}
+
+#service-about-para{
+	/*border: 2px solid black;*/
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+
+#service-about-para #service-about-con{
+/*border: 2px solid green;*/
+width: 75%
+}
+
+#services-profile{
+	width: 100%;
+	/*border: 2px solid black;*/
+	background-color: #fff;
+	padding: 50px 0px;
+}
+
+#services-profile > h1{
+	text-align: center;
+	font-size: 40px;
+
+}
+#services-profile #services-profile-wrap{
+/*border: 2px solid red;*/
+width: 70%;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+align-content: center;
+text-align: center;
+}
+
+.services-profile-member img{
+width: 180px;
+height: 180px;
+border-radius: 50%;
+}
+
+/*Contact*/
+
+#contact{
+	/*border: 2px solid black;*/
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	text-align: center;
+}
+
+#contact #contct-form{
+/*border: 2px solid;*/
+padding: 10px;
+}
+#contact #contct-form input{
+	padding: 5px;
+	margin: 0px 5px 10px 10px;
+}
+
+#contact #contct-form button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	outline: none;
+	background-color: rgb(21, 31, 112);
+	border-radius: 0px;
+	color: #fff;
+}
+
+#contact #contct-form button:hover{
+	background-color: rgba(61, 68, 143);
+}
